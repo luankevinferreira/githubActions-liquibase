@@ -1,0 +1,239 @@
+repo_name: luankevinferreira/githubActions-liquibase
+report_id: cb430b29f6dfc1a65bdb317cff34f3d4
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-24T00:05:28+00:00'
+requested_by: szandany
+provider: github
+branch: main
+detected_tools_count: 16
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/luankevinferreira/githubActions-liquibase
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/luankevinferreira/githubActions-liquibase
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/luankevinferreira/githubActions-liquibase/blob/main/Docker/changeLog.h2.sql
+  detection_source: Docker/changeLog.h2.sql
+  last_updated_by: SteveZ
+  last_updated_on: 2020-10-12 15:20:34.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/luankevinferreira/githubActions-liquibase/blob/main/SalesManager_h2_version/pom.xml
+  detection_source: SalesManager_h2_version/pom.xml
+  last_updated_by: SteveZ
+  last_updated_on: 2020-10-11 22:23:33.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/luankevinferreira/githubActions-liquibase/blob/main/SalesManager_h2_version/pom.xml
+  detection_source: SalesManager_h2_version/pom.xml
+  last_updated_by: SteveZ
+  last_updated_on: 2020-10-11 22:23:33.000000000 Z
+- name: Liquibase
+  description: Easily track, version &amp; deploy database changes
+  website_url: https://www.liquibase.com
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/1398/y1As8_s5_400x400.jpg
+  detection_source_url: https://github.com/luankevinferreira/githubActions-liquibase/blob/main/SalesManager_h2_version/pom.xml
+  detection_source: SalesManager_h2_version/pom.xml
+  last_updated_by: SteveZ
+  last_updated_on: 2020-10-11 22:23:33.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/luankevinferreira/githubActions-liquibase
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/luankevinferreira/githubActions-liquibase/blob/main/.github/workflows/workflow_ubuntu_NodeJS-ubuntu.yml
+  detection_source: ".github/workflows/workflow_ubuntu_NodeJS-ubuntu.yml"
+  last_updated_by: szandany
+  last_updated_on: 2021-02-09 14:52:17.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/luankevinferreira/githubActions-liquibase/blob/main/Gradle_h2/build.gradle
+  detection_source: Gradle_h2/build.gradle
+  last_updated_by: SteveZ
+  last_updated_on: 2020-10-11 23:14:27.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/luankevinferreira/githubActions-liquibase/blob/main/SalesManager_h2_version/src/main/resources/application.properties
+  detection_source: SalesManager_h2_version/src/main/resources/application.properties
+  last_updated_by: Mike Olivas
+  last_updated_on: 2020-10-21 01:36:14.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  version: 1.4.200
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/githubActions-liquibase/blob/main/SalesManager_h2_version/pom.xml
+  detection_source: SalesManager_h2_version/pom.xml
+  last_updated_by: SteveZ
+  last_updated_on: 2020-10-11 22:23:33.000000000 Z
+  vulnerabilities:
+  - name: Arbitrary code execution in H2 Console
+    cve_id: CVE-2022-23221
+    cve_url: https://github.com/advisories/GHSA-45hx-wfhj-473x
+    detected_date: Jan 22
+    severity: critical
+    first_patched: 2.1.210
+  - name: RCE in H2 Console
+    cve_id: CVE-2021-42392
+    cve_url: https://github.com/advisories/GHSA-h376-j262-vhq6
+    detected_date: Jan 7
+    severity: critical
+    first_patched: 2.0.206
+  - name: Improper Restriction of XML External Entity Reference in com.h2database:h2.
+    cve_id: CVE-2021-23463
+    cve_url: https://github.com/advisories/GHSA-7rpj-hg47-cx62
+    detected_date: Dec 17
+    severity: high
+    first_patched: 2.0.202
+  - name: 'Password exposure in H2 Database '
+    cve_id: CVE-2022-45868
+    cve_url: https://github.com/advisories/GHSA-22wj-vf5f-wrvj
+    detected_date: Nov 24
+    severity: high
+    first_patched: 2.2.220
+- name: org.liquibase:liquibase-core
+  description: Liquibase is a tool for managing and executing database changes
+  version: 4.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/githubActions-liquibase/blob/main/SalesManager_h2_version/pom.xml
+  detection_source: SalesManager_h2_version/pom.xml
+  last_updated_by: SteveZ
+  last_updated_on: 2020-10-11 22:23:33.000000000 Z
+  vulnerabilities:
+  - name: Improper Restriction of XML External Entity Reference in Liquibase
+    cve_id: CVE-2022-0839
+    cve_url: https://github.com/advisories/GHSA-jvfv-hrrc-6q72
+    detected_date: Mar 9
+    severity: critical
+    first_patched: 4.8.0
+- name: org.springframework.boot:spring-boot-starter-jdbc
+  description: Starter for using JDBC with the HikariCP connection pool
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/githubActions-liquibase/blob/main/SalesManager_h2_version/pom.xml
+  detection_source: SalesManager_h2_version/pom.xml
+  last_updated_by: SteveZ
+  last_updated_on: 2020-10-11 22:23:33.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/githubActions-liquibase/blob/main/SalesManager_h2_version/pom.xml
+  detection_source: SalesManager_h2_version/pom.xml
+  last_updated_by: SteveZ
+  last_updated_on: 2020-10-11 22:23:33.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-thymeleaf
+  description: Starter for building MVC web applications using Thymeleaf views
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/githubActions-liquibase/blob/main/SalesManager_h2_version/pom.xml
+  detection_source: SalesManager_h2_version/pom.xml
+  last_updated_by: SteveZ
+  last_updated_on: 2020-10-11 22:23:33.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/githubActions-liquibase/blob/main/SalesManager_h2_version/pom.xml
+  detection_source: SalesManager_h2_version/pom.xml
+  last_updated_by: SteveZ
+  last_updated_on: 2020-10-11 22:23:33.000000000 Z
